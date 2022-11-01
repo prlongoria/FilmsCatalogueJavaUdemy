@@ -23,7 +23,7 @@ public class FilmsCatalgouePresentation {
                             + "4. Search Film \n"
                             + "0. Exit \n"
             );
-            option = Integer.parseInt(scanner.nextLine());
+            option = Integer.parseInt(scanner.nextLine());//si no pongo una opción integer, me echa del programa
 
             //Para que se pueda procesar cada opción que escoja el usuario debo hacer:
             switch (option){
